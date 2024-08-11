@@ -75,7 +75,7 @@
 }
 
 .freediv{
-  margin: 20px 100px;
+  margin: 20px 80px;
 }
 
 @media only  screen and (max-width:600px){
@@ -88,7 +88,12 @@
     margin: 10px 0px;
   }
 
-  .free{
-    padding: 0px;
+  .resume-header{
+    /* border-radius: 10px; */
+    color:black;
+    width: 80vw;
+    /* padding: 10px; */
+    /* background-color: gray; */
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQauHV49_0jLyWNLcm6jX9yNqSO2g8bbPEYZQ&s); */
   }
 }
