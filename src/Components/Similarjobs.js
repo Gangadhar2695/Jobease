@@ -10,7 +10,7 @@ const Similarjobs = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const similar = await fetch("http://localhost:3000/similarjobs");
+        const similar = await fetch("https://jobease-backend.vercel.app/similarjobs");
         const result = await similar.json();
         setJobs(result.data);
       } catch (error) {

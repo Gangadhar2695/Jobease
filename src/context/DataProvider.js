@@ -19,7 +19,7 @@ export const DataProvider = ({ children }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:3000/Offcampus");
+        const response = await fetch("https://jobease-backend.vercel.app/Offcampus");
         const result = await response.json();
         setData(result.data);
       } catch (error) {
@@ -34,7 +34,7 @@ export const DataProvider = ({ children }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const responses = await fetch("http://localhost:3000/Appdata");
+        const responses = await fetch("https://jobease-backend.vercel.app/Appdata");
         const results = await responses.json();
         setAppData(results.data);
         // console.log('APPDATA',results);
@@ -50,7 +50,7 @@ export const DataProvider = ({ children }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const responses = await fetch("http://localhost:3000/getUsers");
+        const responses = await fetch("https://jobease-backend.vercel.app/getUsers");
         const users = await responses.json();
         setUser(users.data);
         //  console.log('userdata',users);

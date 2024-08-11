@@ -10,7 +10,7 @@ const Subscribe = () => {
   const handleSubscribe = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:3000/Subscribe', {
+      const response = await fetch('https://jobease-backend.vercel.app/Subscribe', {
         method: 'post',
         body: JSON.stringify({ name, email }),
         headers: {
