@@ -11,10 +11,6 @@ const FreeResumes = () => {
     <>
       <div className="freeresume d-flex flex-column gap-4 justify-content-center ">
 
-        {/* <div>
-          <img className="resume-image" src="https://media.licdn.com/dms/image/D5612AQE85yU87ekWiQ/article-cover_image-shrink_720_1280/0/1714380971331?e=2147483647&v=beta&t=9dE63J9_Ag6jO1S1HhBvsvHbzN69SPtSdj06pSN0CP0"  height="300px" />
-        </div> */}
-
         <h4 className=" fw-bold text-uppercase text-center mt-4 resume-header">Free ATS  Resume Templates for Freshers</h4>
 
         <div className="freediv d-flex flex-row gap-5 flex-wrap">
