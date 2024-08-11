@@ -1,0 +1,54 @@
+.jobs {
+  margin: 50px;
+  padding:50px  50px;
+}
+
+.job1,
+.job2,
+.job3,
+.job4,
+.job5,
+.job6 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  height: 450px;
+  width: 380px;
+  border-radius:10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+
+}
+
+.job1 a,
+.job2 a,
+.job3 a,
+.job4 a,
+.job5 a,
+.job6 a {
+  text-decoration: none;
+  color: grey;
+  font-size: medium;
+}
+
+.job1 a:hover,
+.job2 a:hover,
+.job3 a:hover,
+.job4 a:hover,
+.job5 a:hover,
+.job6 a:hover {
+  text-decoration: underline;
+  color: green;
+  font-size: large;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .jobs{
+    margin: 20px;
+    padding:10px  10px;
+
+
+  }
+}

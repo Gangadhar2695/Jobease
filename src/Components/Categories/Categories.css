@@ -1,0 +1,28 @@
+.categories{
+padding: 30px;
+margin: 30px 0px;
+}
+
+.categories img{
+  max-width: 150px;
+  max-height: 150px;
+
+}
+
+.categories a{
+  text-decoration: none;
+}
+
+.categories p{
+  color: grey;
+  font-weight: bold;
+}
+
+.cat1{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cat1:hover{
+color: crimson;
+transform: scale(1.1);
+}

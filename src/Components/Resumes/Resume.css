@@ -1,0 +1,60 @@
+.res{
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.resumes{
+  font-family: Roboto;
+
+}
+
+.cl{
+  max-width: 500px;
+  max-height: 400px;
+}
+
+.effective{
+  max-width: 700px;
+  max-height: 400px;
+  margin: 20px 120px;
+}
+
+
+@media only screen and (max-width:600px) {
+  
+
+.res{
+  max-width: 450px;
+  max-height: 450px;
+  margin: auto;
+}
+
+
+.cl{
+  max-width: 400px;
+  max-height: 450px;
+}
+
+.effective{
+  max-width: 400px;
+  max-height: 450px;
+  margin: 0;
+}
+
+.cv2{
+  max-width: 400px;
+  max-height: 450px;
+}
+
+}
+
+@media only screen and (min-width:780px) and (max-width:1024px) {
+
+
+.two-div{
+  width: 100%;
+}
+
+
+
+}

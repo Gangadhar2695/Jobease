@@ -1,0 +1,31 @@
+.scrolllandpage img{
+  height: 100px ;
+  width: 150px;
+  margin-right: 20px;
+
+}
+
+.scrolllandpage{
+  margin: 0px 10px;
+}
+
+.scrolllandpages{
+  animation: slides infinite 5s linear;
+  display: flex;
+  /* overflow: hidden; */
+
+}
+
+.scrolllandpage:hover .scrolllandpages{
+  animation-play-state: paused;
+}
+
+
+@keyframes slides {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

@@ -1,0 +1,110 @@
+.java {
+  margin: 100px 200px;
+  padding: 10px;
+  font-family: Roboto;
+}
+
+.java p,
+.python p,
+.react p,
+.javascript p,
+.resumes p{
+color: gray;
+}
+
+.java h3 {
+  font-weight: 600;
+}
+
+.one-div {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left: 200px;
+  display: none;
+
+}
+
+.one-div a {
+  text-decoration: none;
+  color: grey;
+  text-align: start;
+
+}
+
+.one-div a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.two-div {
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: start;
+}
+
+.three-div {
+  max-width: 200px;
+  max-height: 300px;
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: sticky;
+  top: 80px;
+}
+
+.java-img {
+  background-position: center;
+  max-width: 750px;
+}
+
+.python-img {
+  background-position: center;
+  max-width: 770px;
+}
+
+.javascript-img {
+  max-width: 770px;
+  background-position: center;
+}
+
+.react-img {
+  max-width: 770px;
+  background-position: center;
+
+}
+
+.certification-img {
+  max-width: 770px;
+  background-position: center;
+}
+
+
+@media only screen and (min-width:1024px) {
+
+  .one-div {
+    max-height: 700px;
+    max-width: 250px;
+    display: block;
+    margin-left: 100px;
+    position: sticky;
+    top: 80px;
+  }
+
+  .two-div {
+    max-width: 840px;
+    margin-left: 30px;
+  }
+
+  .three-div {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+  }
+
+  .three-div img {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 10px;
+  }
+
+
+
+}

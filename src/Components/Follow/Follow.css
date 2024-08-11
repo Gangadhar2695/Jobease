@@ -1,0 +1,41 @@
+.follow2 {
+  /* margin: 150px 90px; */
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  height: 300px;
+  max-width: 700px;
+}
+
+.follow2 a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.follow2 img:hover {
+  transform: translateY(-30px);
+  transition: all 1s ease-in;
+}
+
+@media only screen and (max-width: 500px) {
+
+  /* .follow2 {
+    margin: 80px;
+  }
+
+  .follow-us {
+    width: 40px;
+    height: 40px;
+
+  } */
+
+
+}
+
+
+ .Follow{
+  margin: 120px 10px;
+  gap: 80px;
+} 
+
+

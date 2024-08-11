@@ -1,0 +1,30 @@
+.subscribe {
+  max-width: 500px;
+  max-height: 600px;
+  /* margin: 100px; */
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  background-color: black;
+  /* margin:150px 460px; */
+  /* margin: 130px 20px; */
+}
+
+.form input {
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid gray;
+  background-color: white;
+}
+
+.form label {
+  text-align: start;
+  color: white;
+}
+
+.subscribe-submit {
+  background-color: white;
+  border-radius: 10px;
+  border: grey 1px solid;
+  margin: 15px;
+  padding: 7px 20px;
+  color: black;
+}

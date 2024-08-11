@@ -1,0 +1,52 @@
+
+.behaviour p,
+.behaviour ul,
+.interview p,
+.interview ul,
+.business p,
+.business ul,
+.software p,
+.software ul,
+.technical p,
+.technical ul {
+  color: grey;
+  font-family: Roboto;
+  font-size:16px;
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+.interview,.behaviour,.business,.software,.technical {
+  max-width: 100%;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.technical h3 ,
+.technical h5,
+.software h3,
+.software h5,
+.interview h3,
+.interview h5,
+.behaviour h3,
+.behaviour h5,
+.business h3,
+.business h5
+{
+  font-weight: 600;
+  font-family: Roboto;
+
+}
+
+@media only screen and (min-width:1024px) {
+  .interview,.business,.technical,.behaviour,.software {
+    max-width: 55%;
+    margin: 15px;
+    padding: 20px;
+  }
+
+  .out-div {
+    padding-left: 100px;
+  }
+  
+}

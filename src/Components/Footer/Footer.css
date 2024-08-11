@@ -1,0 +1,44 @@
+.footer {
+  padding: 25px;
+  margin-top: 100px;
+  background-color: #001B2F;
+  color: white;
+  font-family: roboto;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover {
+  /* text-decoration: underline; */
+  color:cyan;
+}
+
+.footer hr {
+  color: grey;
+  height: 10px;
+  width: 100%;
+}
+
+.footer-icons img{
+  height: 10px;
+  width: 10px;
+}
+
+.footer .fa-whatsapp:hover{
+color: green;
+}
+
+.footer .fa-instagram:hover{
+  color: tomato;
+  }
+
+  .footer .fa-telegram:hover{
+    color: blue;
+    }
+
+    .footer .fa-square-x-twitter:hover{
+      color:black;
+      }

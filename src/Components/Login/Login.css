@@ -1,0 +1,83 @@
+/* 
+.login{
+  position: absolute;
+  left: 42%;
+  top: 20%;
+} */
+.error-text {
+  margin-top: 0px;
+  font-size: 15px;
+  font-weight: 500;
+  color: red;
+}
+
+.login-container{
+  place-self: center;
+  width: max(23vw, 330px);
+  color: #808080;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px 30px;
+  border-radius: 8px;
+  font-size: 14px;
+  animation: fadeIn 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.login-form1{
+  max-width: 800px;
+  margin: 30px auto;
+
+}
+/* 
+.login-image{
+  max-height: 90%;
+} */
+
+.login-title{
+  display: flex;
+align-items: center;
+justify-content: space-between;
+color: #000;
+}
+.login-title img{
+  cursor: pointer;
+  width: 16px;
+}
+.login-inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.login-inputs input{
+  outline: none;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  padding: 10px;
+}
+.login-container button{
+color: #fff;
+background-color: tomato;
+font-size: 15px;
+cursor: pointer;
+border: none;
+padding: 10px;
+border-radius: 4px;
+}
+.login-condition{
+  display: flex;
+  align-items: start;
+  margin-top: -15px;
+  gap: 8px;
+}
+.login-condition input{
+  margin-top: 5px;
+}
+.login p span{
+  font-weight: 500;
+  cursor: pointer;
+  color: tomato;
+}

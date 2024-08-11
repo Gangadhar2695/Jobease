@@ -1,0 +1,87 @@
+.free {
+  position: relative;
+  padding: 20px;
+  background-color: lightblue;
+}
+
+.free a{
+  text-decoration: none;
+  color: black;
+}
+
+.modal-fullscreen {
+  width: 100vw;
+  height: 100vh;
+}
+
+.freeresume{
+  padding:20px 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://img.freepik.com/premium-photo/white-background-with-picture-bird-it_1290686-30546.jpg);
+}
+
+
+.resume-image{
+max-width: 400px;
+}
+
+
+.free:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}
+
+
+.download {
+  position: absolute;
+  top: 65%;
+  right: 10%;
+  background-color: lightgrey;
+  border-radius: 50%;
+  padding: 15px 18px;
+  color: black;
+  display: none;
+}
+
+
+.view {
+  position: absolute;
+  top: 80%;
+  right: 10%;
+  background-color: lightgrey;
+  border-radius: 50%;
+  padding: 15px 17px;
+  color: black;
+  display: none;
+}
+
+.free:hover .download,
+.free:hover .view {
+  display: flex;
+}
+
+.download:hover,
+.view:hover{
+  background-color:darkgrey;
+
+}
+
+.resume-header{
+  /* border-radius: 10px; */
+  margin: auto;
+  width: 70vw;
+  color:black;
+  /* padding: 10px; */
+  /* background-color: gray; */
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQauHV49_0jLyWNLcm6jX9yNqSO2g8bbPEYZQ&s); */
+}
+
+@media only  screen and (max-width:600px){
+  .freeresume{
+    padding:20px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

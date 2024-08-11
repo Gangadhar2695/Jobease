@@ -1,0 +1,357 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"); */
+/* 
+body{
+  overflow: hidden !important;
+} */
+
+body.dark {
+  background-color: black;
+  color: dark;
+}
+
+.App {
+  font-family: Poppins;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.card {
+  box-shadow: 20px 20px 50px #aaaaaa;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 20px 20px 20px #aaaaaa;
+}
+
+.card-btn:hover {
+  transform: translateY(-20px);
+  transition: all 2s ease-in-out;
+}
+
+.card-footer a {
+  text-decoration: none;
+}
+
+.anchor {
+  text-decoration: none;
+}
+
+.off {
+  font-weight: 600;
+  background-color: skyblue;
+}
+
+.extras {
+  width: 32%;
+}
+
+@media screen and (max-width:400px) {
+  .card-images {
+    display: none;
+
+  }
+}
+
+
+@media screen and (max-width:600px) {
+
+
+  .cards p {
+    font-size: 15px;
+    color: darkslategrey;
+
+  }
+
+  .cards h6 {
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  .cards .continoue {
+    font-size: 16px;
+    padding: 6px;
+  }
+
+  .posted {
+    font-weight: 600;
+    font-size: 15px;
+    color: darkslategrey;
+  }
+
+
+  .navbar {
+    display: none;
+  }
+
+  .nav {
+    padding: 15px 10px;
+  }
+
+  .remote-header {
+    margin: auto;
+    padding: 6px 0px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(110.7deg, rgb(9, 154, 151) 6.3%, rgb(21, 205, 168) 90.6%);
+  }
+
+  .search {
+    margin-left: 50px;
+  }
+
+  .jobnow {
+    max-width: 350px;
+  }
+
+  .extras {
+    width: 48%;
+  }
+
+  .jobcategoryOne {
+    margin: 0px 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .offcampus {
+    max-width: 100vw;
+    margin: auto;
+  }
+
+  .first {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px 50px;
+  }
+
+  .remote-header {
+    margin-left: 10px;
+    padding: 6px 100px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(110.7deg, rgb(9, 154, 151) 6.3%, rgb(21, 205, 168) 90.6%);
+  }
+
+
+
+  .landingpage .left {
+    margin: 40px 160px;
+  }
+
+  .landingpage .right {
+    margin: 50px 160px;
+  }
+
+  nav {
+    padding: 20px 0px;
+    gap: 100px;
+  }
+
+
+  .moon {
+    display: none;
+  }
+
+  .apply {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .account-login {
+    display: block;
+  }
+
+  .account-login a {
+    text-decoration: none;
+    color: black;
+  }
+
+  #Navbar {
+    width: 60vw;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: white;
+    justify-content: start;
+    padding: 30px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: fixed;
+    top: 60px;
+    transform: translateX(-400px);
+    transition: 0.5s ease;
+    z-index: 2000;
+  }
+
+  .mobile-sidebar {
+    z-index: 1500px;
+  }
+
+  .wrong {
+    position: absolute;
+    left: 400px;
+    cursor: pointer;
+  }
+
+  #Navbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mobile-sidebar ul li {
+    position: relative;
+  }
+
+  .mobile-sidebar ul li:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: "";
+    color: black;
+    background: black;
+    height: 2px;
+  }
+
+  .mobile-sidebar ul li:hover:after {
+    width: 20%;
+  }
+
+  .mobile-sidebar ul li:after {
+    transition: all 2s;
+  }
+
+
+  .mobile-sidebar a {
+    text-decoration: none;
+    color: black;
+  }
+
+  #Navbar.clicked {
+    display: block;
+    transform: translateX(0px);
+  }
+
+  .navbar {
+    display: none;
+  }
+
+
+  .cards p {
+    font-size: 15px;
+    color: darkslategrey;
+
+  }
+
+  .cards h6 {
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+
+  .card-body {
+    padding: 10px;
+  }
+
+  .cards .continoue {
+    font-size: 16px;
+    padding: 6px;
+  }
+
+  .posted {
+    font-weight: 600;
+    font-size: 15px;
+    color: darkslategrey;
+  }
+
+}
+
+@media only screen and (min-width: 1025px) {
+
+  .offcampus {
+    max-width: 60%;
+
+  }
+
+
+
+  .remote-header {
+    margin-left: 0px;
+    padding: 6px 100px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(110.7deg, rgb(9, 154, 151) 6.3%, rgb(21, 205, 168) 90.6%);
+  }
+
+  .jobcategory-two {
+    margin: auto;
+    gap: 100px;
+  }
+
+  .jobcategoryOne {
+    gap: 190px;
+  }
+
+
+
+  .cards p {
+    font-size: 15px;
+    color: darkslategrey;
+
+  }
+
+  .cards h6 {
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+
+  .card-body {
+    padding: 10px;
+  }
+
+  .cards .continoue {
+    font-size: 16px;
+    padding: 6px;
+  }
+
+  .posted {
+    font-weight: 600;
+    font-size: 15px;
+    color: darkslategrey;
+  }
+
+
+}
+
+
+
+
+.similar-jobs h5 {
+  color: white;
+  background: linear-gradient(109.6deg, rgb(5, 85, 84) 11.2%, rgb(64, 224, 208) 91.1%);
+}
+
+
+
+
+
+
+.JobsByCategory h5 {
+  background: linear-gradient(109.6deg, rgb(5, 85, 84) 11.2%, rgb(64, 224, 208) 91.1%);
+}
