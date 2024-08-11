@@ -17,7 +17,7 @@ const FreeResumes = () => {
 
         <h4 className=" fw-bold text-uppercase text-center mt-4 resume-header">Free ATS  Resume Templates for Freshers</h4>
 
-        <div className=" m-5 d-flex flex-row gap-5 flex-wrap">
+        <div className="freediv d-flex flex-row gap-5 flex-wrap">
 
 
           <div className="free bg-light">

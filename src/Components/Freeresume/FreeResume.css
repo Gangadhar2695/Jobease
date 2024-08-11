@@ -22,10 +22,6 @@
 }
 
 
-.resume-image{
-max-width: 400px;
-}
-
 
 .free:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -78,10 +74,17 @@ max-width: 400px;
   /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQauHV49_0jLyWNLcm6jX9yNqSO2g8bbPEYZQ&s); */
 }
 
+.freediv{
+  margin: 20px 100px;
+}
+
 @media only  screen and (max-width:600px){
   .freeresume{
     padding:20px 20px;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .freediv{
+    margin: 10px 0px;
   }
 }
