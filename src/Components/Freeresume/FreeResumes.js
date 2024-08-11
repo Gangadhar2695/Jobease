@@ -17,7 +17,7 @@ const FreeResumes = () => {
 
 
           <div className="free bg-light">
-            <img className="col-4-lg bg-white " src="./images/freee.jpg" alt="card-image" height="350px" width="300px" />
+            <img className="col-4-lg bg-white " src="./images/freee.jpg" alt="card-image" height="350px" width="280px" />
             <div className="d-flex flex-row justify-content-around ">
               <div className="download"><a href="./assets/freeresume1.pdf" download="freeresume1.pdf" ><i class="fa-solid fa-download"></i></a></div>
               <div className="view" onClick={handleShow}><i className="fa-solid fa-eye"></i></div>
@@ -37,7 +37,7 @@ const FreeResumes = () => {
 
 
           <div className="free bg-light">
-            <img className="col-4-lg bg-white " src="./images/free2.jpg" alt="card-image" height="350px" width="300px" />
+            <img className="col-4-lg bg-white " src="./images/free2.jpg" alt="card-image" height="350px" width="280px" />
             <div className="d-flex flex-row justify-content-around ">
               <div className="download"><a href="./assets/freeresume2.pdf" download="freeresume2.pdf" ><i class="fa-solid fa-download"></i></a></div>
               <div className="view" onClick={handleShow}><i class="fa-solid fa-eye"></i></div>
@@ -54,7 +54,7 @@ const FreeResumes = () => {
 
 
           <div className="free bg-light">
-            <img className="col-4-lg bg-white " src="./images/free3.jpg" alt="card-image" height="350px" width="300px" />
+            <img className="col-4-lg bg-white " src="./images/free3.jpg" alt="card-image" height="350px" width="280px" />
             <div className="d-flex flex-row justify-content-around ">
               <div className="download"><a href="./assets/freeresume3.pdf" download="freeresume3.pdf" ><i class="fa-solid fa-download"></i></a></div>
               <div className="view"  onClick={handleShow}><i class="fa-solid fa-eye"></i></div>
@@ -71,7 +71,7 @@ const FreeResumes = () => {
 
 
           <div className="free bg-light">
-            <img className="col-4-lg bg-white " src="./images/freeresume4.jpg" alt="card-image" height="350px" width="300px" />
+            <img className="col-4-lg bg-white " src="./images/freeresume4.jpg" alt="card-image" height="350px" width="280px" />
             <div className="d-flex flex-row justify-content-around ">
               <div className="download"><a href="./assets/freeresume4.pdf" download="freeresume4.pdf" ><i class="fa-solid fa-download"></i></a></div>
               <div className="view" onClick={handleShow} ><i class="fa-solid fa-eye"></i></div>
@@ -88,7 +88,7 @@ const FreeResumes = () => {
 
 
           <div className="free bg-light">
-            <img className="col-4-lg bg-white " src="./images/freeresume5.jpg" alt="card-image" height="350px" width="300px" />
+            <img className="col-4-lg bg-white " src="./images/freeresume5.jpg" alt="card-image" height="350px" width="280px" />
             <div className="d-flex flex-row justify-content-around ">
               <div className="download"><a href="./assets/freeresume5.pdf" download="freeresume5.pdf" ><i class="fa-solid fa-download"></i></a></div>
               <div className="view" onClick={handleShow}><i class="fa-solid fa-eye"></i></div>
@@ -105,7 +105,7 @@ const FreeResumes = () => {
 
 
           <div className="free bg-light">
-            <img className="col-4-lg bg-white " src="./images/freeresume6.jpg" alt="card-image" height="350px" width="300px" />
+            <img className="col-4-lg bg-white " src="./images/freeresume6.jpg" alt="card-image" height="350px" width="280px" />
             <div className="d-flex flex-row justify-content-around ">
               <div className="download"><a href="./assets/freeresume6.pdf" download="freeresume6.pdf" ><i class="fa-solid fa-download"></i></a></div>
               <div className="view" onClick={handleShow} ><i class="fa-solid fa-eye"></i></div>
@@ -123,7 +123,7 @@ const FreeResumes = () => {
    
 
           <div className="free bg-light">
-            <img className="col-4-lg bg-white " src="./images/freeresume7.jpg" alt="card-image" height="350px" width="300px" />
+            <img className="col-4-lg bg-white " src="./images/freeresume7.jpg" alt="card-image" height="350px" width="280px" />
             <div className="d-flex flex-row justify-content-around ">
               <div className="download"><a href="./assets/freeresume7.pdf" download="freeresume7.pdf" ><i class="fa-solid fa-download"></i></a></div>
               <div className="view" onClick={handleShow}><i class="fa-solid fa-eye"></i></div>
@@ -141,7 +141,7 @@ const FreeResumes = () => {
 
 
           <div className="free bg-light">
-            <img className="col-4-lg bg-white " src="./images/freeresume8.jpg" alt="card-image" height="350px" width="300px" />
+            <img className="col-4-lg bg-white " src="./images/freeresume8.jpg" alt="card-image" height="350px" width="280px" />
             <div className="d-flex flex-row justify-content-around ">
               <div className="download"><a href="./assets/freeresume8.pdf" download="freeresume8.pdf" ><i class="fa-solid fa-download"></i></a></div>
               <div className="view"  onClick={handleShow}><i class="fa-solid fa-eye"></i></div>
@@ -159,7 +159,7 @@ const FreeResumes = () => {
 
 
           <div className="free bg-light">
-            <img className="col-4-lg bg-white " src="./images/freeresume9.jpg" alt="card-image" height="350px" width="300px" />
+            <img className="col-4-lg bg-white " src="./images/freeresume9.jpg" alt="card-image" height="350px" width="280px" />
             <div className="d-flex flex-row justify-content-around ">
               <div className="download"><a href="./assets/freeresume9.pdf" download="freeresume9.pdf" ><i class="fa-solid fa-download"></i></a></div>
               <div className="view"  onClick={handleShow}><i class="fa-solid fa-eye"></i></div>
@@ -181,7 +181,7 @@ const FreeResumes = () => {
         <div className="freediv d-flex flex-row gap-5 flex-wrap">
 
           <div className="free bg-light">
-            <img className="col-4-lg bg-white " src="./images/freepro1.jpg" alt="card-image" height="350px" width="300px" />
+            <img className="col-4-lg bg-white " src="./images/freepro1.jpg" alt="card-image" height="350px" width="280px" />
             <div className="d-flex flex-row justify-content-around ">
               <div className="download"><a href="./assets/freeresumepro1.pdf" download="freeresumepro1.pdf"><i class="fa-solid fa-download"></i></a></div>
               <div className="view" ><i class="fa-solid fa-eye"></i></div>
@@ -189,7 +189,7 @@ const FreeResumes = () => {
           </div>
 
           <div className="free bg-light">
-            <img className="col-4-lg bg-white " src="./images/freeresumepro2.jpg" alt="card-image" height="350px" width="300px" />
+            <img className="col-4-lg bg-white " src="./images/freeresumepro2.jpg" alt="card-image" height="350px" width="280px" />
             <div className="d-flex flex-row justify-content-around ">
               <div className="download"><a href="./images/freeresumepro2.jpg" download="freeresumepro2.jpg"><i class="fa-solid fa-download"></i></a></div>
               <div className="view"><i class="fa-solid fa-eye"></i></div>
@@ -197,7 +197,7 @@ const FreeResumes = () => {
           </div>
 
           <div className="free bg-light">
-            <img className="col-4-lg bg-white " src="./images/freeresumepro3.jpg" alt="card-image" height="350px" width="300px" />
+            <img className="col-4-lg bg-white " src="./images/freeresumepro3.jpg" alt="card-image" height="350px" width="280px" />
             <div className="d-flex flex-row justify-content-around ">
               <div className="download"><a href="./images/freeresumepro3.pdf" download="freeresumepro3.pdf"><i class="fa-solid fa-download"></i></a></div>
               <div className="view"><i class="fa-solid fa-eye"></i></div>
@@ -205,7 +205,7 @@ const FreeResumes = () => {
           </div>
 
           <div className="free bg-light">
-            <img className="col-4-lg bg-white " src="./images/freeresumepro4.jpg" alt="card-image" height="350px" width="300px" />
+            <img className="col-4-lg bg-white " src="./images/freeresumepro4.jpg" alt="card-image" height="350px" width="280px" />
             <div className="d-flex flex-row justify-content-around ">
               <div className="download"><a href="./images/freeresumepro4.pdf" download="freeresumepro4.pdf"><i class="fa-solid fa-download"></i></a></div>
               <div className="view"><i class="fa-solid fa-eye"></i></div>
@@ -213,7 +213,7 @@ const FreeResumes = () => {
           </div>
 
           <div className="free bg-light">
-            <img className="col-4-lg bg-white " src="./images/freeresumepro5.jpg" alt="card-image" height="350px" width="300px" />
+            <img className="col-4-lg bg-white " src="./images/freeresumepro5.jpg" alt="card-image" height="350px" width="280px" />
             <div className="d-flex flex-row justify-content-around ">
               <div className="download"><a href="./images/freeresumepro5.pdf" download="freeresumepro5.pdf"><i class="fa-solid fa-download"></i></a></div>
               <div className="view"><i class="fa-solid fa-eye"></i></div>
@@ -221,7 +221,7 @@ const FreeResumes = () => {
           </div>
 
           <div className="free bg-light">
-            <img className="col-4-lg bg-white " src="./images/freeresumepro6.jpg" alt="card-image" height="350px" width="300px" />
+            <img className="col-4-lg bg-white " src="./images/freeresumepro6.jpg" alt="card-image" height="350px" width="280px" />
             <div className="d-flex flex-row justify-content-around ">
               <div className="download"><a href="./images/freeresumepro6.pdf" download="freeresumepro6.pdf"><i class="fa-solid fa-download"></i></a></div>
               <div className="view"><i class="fa-solid fa-eye"></i></div>
@@ -229,7 +229,7 @@ const FreeResumes = () => {
           </div>
 
           <div className="free bg-light">
-            <img className="col-4-lg bg-white " src="./images/res.png" alt="card-image" height="350px" width="300px" />
+            <img className="col-4-lg bg-white " src="./images/res.png" alt="card-image" height="350px" width="280px" />
             <div className="d-flex flex-row justify-content-around ">
               <div className="download"><a href="./images/res.pdf" download="freeresumepro4.pdf"><i class="fa-solid fa-download"></i></a></div>
               <div className="view"><i class="fa-solid fa-eye"></i></div>
@@ -237,7 +237,7 @@ const FreeResumes = () => {
           </div>
 
           <div className="free bg-light">
-            <img className="col-4-lg bg-white " src="./images/freeresumepro5.jpg" alt="card-image" height="350px" width="300px" />
+            <img className="col-4-lg bg-white " src="./images/freeresumepro5.jpg" alt="card-image" height="350px" width="280px" />
             <div className="d-flex flex-row justify-content-around ">
               <div className="download"><a href="./images/freeresumepro5.pdf" download="freeresumepro5.pdf"><i class="fa-solid fa-download"></i></a></div>
               <div className="view"><i class="fa-solid fa-eye"></i></div>
@@ -245,7 +245,7 @@ const FreeResumes = () => {
           </div>
 
           <div className="free bg-light">
-            <img className="col-4-lg bg-white " src="./images/freeresumepro6.jpg" alt="card-image" height="350px" width="300px" />
+            <img className="col-4-lg bg-white " src="./images/freeresumepro6.jpg" alt="card-image" height="350px" width="280px" />
             <div className="d-flex flex-row justify-content-around ">
               <div className="download"><a href="./images/freeresumepro6.pdf" download="freeresumepro6.pdf"><i class="fa-solid fa-download"></i></a></div>
               <div className="view"><i class="fa-solid fa-eye"></i></div>
