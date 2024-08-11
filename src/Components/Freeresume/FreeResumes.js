@@ -178,7 +178,7 @@ const FreeResumes = () => {
 
         <h4 className=" fw-bold text-uppercase text-center resume-header ">Free Resume Templates for Professionals</h4>
 
-        <div className=" m-5 d-flex flex-row gap-5 flex-wrap">
+        <div className="freediv d-flex flex-row gap-5 flex-wrap">
 
           <div className="free bg-light">
             <img className="col-4-lg bg-white " src="./images/freepro1.jpg" alt="card-image" height="350px" width="300px" />
