@@ -139,7 +139,7 @@ const Nav = () => {
             Jobs<i className="fa-solid fa-angle-down"></i>
             <div className="drop1" id="drop1">
               <ul className=" list-unstyled d-flex flex-column">
-                <li className=" rounded-2 p-1 "><Link to="/Offcampus">Off Campus Jobs</Link></li>
+                <li className=" rounded-2 p-1 "><Link to="/Offcampus">Off Campus</Link></li>
                 <li className=" rounded-2 p-1 "><Link to="/Walkin">Walkin-Drives</Link></li>
                 <li className=" rounded-2 p-1"><Link to="/Internships">Internships</Link></li>
                 <li className=" rounded-2 p-1"><Link to="/Startups">Startups</Link></li>
