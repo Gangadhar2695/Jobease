@@ -1,6 +1,5 @@
 .java {
-  margin: 100px 200px;
-  padding: 10px;
+  margin: 30px 30px;
   font-family: Roboto;
 }
 
@@ -106,5 +105,13 @@ color: gray;
   }
 
 
+
+}
+
+@media only screen and (max-width:500px) {
+.java{
+    margin: 0px;
+    font-family: Roboto;
+  }
 
 }

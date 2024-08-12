@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Java = () => {
   return (
     <>
-      <div className="java d-flex flex-row flex-wrap  gap-2 m-3 p-3">
+      <div className="java d-flex flex-row flex-wrap  gap-2">
 
         <div className="one-div p-3 text-start">
           <h6 className="text-primary text-center fw-bold">Table of content</h6>
