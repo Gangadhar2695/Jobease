@@ -5,7 +5,7 @@ import "../Java/Java.css";
 const Python = () => {
   return (
     <>
-      <div className="java d-flex flex-row  gap-2 m-3 p-3">
+      <div className="java d-flex flex-row  gap-2">
 
         <div className="one-div p-3 text-start">
           <h6 className="text-center text-primary fw-bold">Table of content</h6>

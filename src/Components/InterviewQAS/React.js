@@ -5,7 +5,7 @@ import "../Java/Java.css";
 const React = () => {
   return (
     <>
-      <div className="java d-flex flex-row  gap-2 m-3 p-3">
+      <div className="java d-flex flex-row  gap-2">
 
         <div className="one-div p-4 text-start">
           <h6 className="text-center fw-bold text-primary">Table of content</h6>
