@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Certifications = () => {
   return (
     <>
-      <div className="certifications d-flex flex-direction-row flex-wrap gap-2 m-3 p-3">
+      <div className="certifications d-flex flex-direction-row flex-wrap gap-2 ">
         <div className="one-div p-4 text-start">
           <h6 className="text-center fw-bold text-primary">Table of content</h6>
           <p><Link to="introduction to java">introduction to Free Certifications</Link></p>
@@ -18,7 +18,6 @@ const Certifications = () => {
           <p><Link to="#">java domains</Link></p>
           <p><Link to="#">java importance</Link></p>
           <p><Link to="#">conclusion</Link></p>
-
         </div>
 
 

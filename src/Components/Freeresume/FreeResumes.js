@@ -7,6 +7,8 @@ const FreeResumes = () => {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  
   return (
     <>
       <div className="freeresume d-flex flex-column gap-4 justify-content-center ">

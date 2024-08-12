@@ -1,6 +1,5 @@
 .certifications {
-  margin: 100px 200px;
-  padding: 10px;
+  margin: 30px 30px;
   font-family: Roboto;
 
 }
@@ -106,6 +105,11 @@ table {
 
 
 @media only screen and (max-width:500px) {
+
+  .certifications{
+    margin: 0;
+    padding: 0;
+  }
 
   .free-course {
     display: flex;
