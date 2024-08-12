@@ -120,6 +120,10 @@ table {
     display: none;
   }
 
+  .two-div{
+    max-width: 400px;
+  }
+
 
   .three-div {
     display: none;
