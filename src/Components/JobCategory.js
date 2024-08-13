@@ -66,7 +66,7 @@ const JobCategory = () => {
 
   return (
     <>
-      <div className=" jobcategory d-flex flex-column flex-wrap gap-5 rounded-2 bg-light">
+      <div className=" jobcategory d-flex flex-column flex-wrap gap-5 rounded-2">
 
 
         <div className='jobcategoryOne mt-3 d-flex flex-row align-items-center flex-wrap container justify-content-center  '>
