@@ -27,7 +27,7 @@ const JobCategory = () => {
   };
 
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 5;
+  const itemsPerPage = 10;
 
   const filteredData = data.filter(item => item.Category === category);
   // console.log('filterdata', filteredData)
