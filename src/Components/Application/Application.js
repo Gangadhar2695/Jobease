@@ -216,7 +216,7 @@ const Application = () => {
 
 
             <div className="text-start bg-light">
-              <h3 className="text-dark">About Amazon:</h3>
+              <h3 className="text-dark">About Company:</h3>
               <p className="text-dark">
                 <img src={newitem.logo} className="image" />
                 {newitem.description}
@@ -358,9 +358,7 @@ const Application = () => {
                     <p className="card-text text-secondary">
                       Experience: 0-4years
                       <br />
-                      Grad: BTECH/BCA/MCA
-                      <br />
-                      Batch: 2021/22/23/24
+                      Graduation: BTECH
                       <br />
                       Location: Hyderabad
                     </p>
@@ -382,9 +380,7 @@ const Application = () => {
                     <p className="card-text text-secondary">
                       Experience: 5-7years
                       <br />
-                      Grad: BTECH/BCA/MCA
-                      <br />
-                      Batch: 2021/22/23/24
+                      Graduation: MCA
                       <br />
                       Location: Hyderabad
                     </p>
@@ -406,9 +402,7 @@ const Application = () => {
                     <p className="card-text text-secondary">
                       Experience: 1-5years
                       <br />
-                      Grad: BTECH/BCA/MCA
-                      <br />
-                      Batch: 2021/22/23/24
+                      Graduation: BTECH
                       <br />
                       Location: Hyderabad
                     </p>
