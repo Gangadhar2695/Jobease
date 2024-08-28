@@ -33,7 +33,7 @@ const Application = () => {
 
           <div className="application d-flex flex-column justify-content-start gap-4 ">
 
-            <h2 className="title  ">{newitem.title}</h2>
+            <h2 className="title text-start">{newitem.title}</h2>
 
 
             <img src={newitem.thumbnail} alt="plan" />
