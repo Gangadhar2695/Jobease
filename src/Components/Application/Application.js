@@ -216,7 +216,7 @@ const Application = () => {
 
 
             <div className="text-start bg-light">
-              <h3 className="text-dark">About Company:</h3>
+              <h3 className="text-dark fw-bold">About Company:</h3>
               <p className="text-dark">
                 <img src={newitem.logo} className="image" />
                 {newitem.description}
