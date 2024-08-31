@@ -131,9 +131,9 @@ const JobCategory = () => {
                   </div>
                   <div className="card-footer d-flex flex-row justify-content-between align-items-center p-1 bg-white">
                     <div className=" fw-2 posted">Posted: {item.Days}</div>
-                    <a href={item.Url}>
+                    <Link to={`/${item.Category}/jobs/${item.Url}`}>
                       <button className="btn btn-dark text-white fw-bold continoue">CONTINUE<i className="fa fa-external-link-square ms-1" aria-hidden="true"></i></button>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
