@@ -7,7 +7,7 @@
 
 .thumbnail{
 width: 100vw;
-height: 100vh;
+height: 50vh;
 overflow: hidden;
 }
 
@@ -40,7 +40,7 @@ a {
   float: left;
   margin-right: 20px;
   width: 100vw;
-height: 100vh;
+height: 45vh;
 overflow: hidden;
 }
 
