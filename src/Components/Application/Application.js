@@ -71,7 +71,7 @@ const Application = () => {
                 <tr>
                   <td>Website</td>
                   <td>
-                    <a href={newitem.details.website}>{newitem.details.website}</a>
+                    <a href={newitem.details.website}>{`www.${newitem.details.company}.com`}</a>
                   </td>
                 </tr>
               </tbody>
