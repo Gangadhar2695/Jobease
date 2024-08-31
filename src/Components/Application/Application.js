@@ -36,7 +36,7 @@ const Application = () => {
             <h2 className="title text-start">{newitem.title}</h2>
 
 
-            <img src={newitem.thumbnail} alt="plan" />
+            <img src={newitem.thumbnail} alt="plan" className="thumbnail" />
             <div className="d-flex flex-row justify-content-between mx-4">
               <span className="text-secondary  ">{newitem.lastUpdated}</span>
               <span className="text-secondary ">Updated By: Gangadhar</span>
